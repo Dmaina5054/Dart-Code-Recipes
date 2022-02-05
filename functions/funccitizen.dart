@@ -5,10 +5,10 @@ void talkAbout(String toShout, shoutFunc) {
 String exclame(String toExclame) =>
     toExclame + '!'; //this func will only add ! to arg
 
-String manyTalk(String toMany) {
+String manyTalk(String someString) {
   String allTogether = "appended...";
   for (int i = 0; i < 10; i++) {
-    allTogether = allTogether + toMany;
+    allTogether = allTogether + someString;
   }
   return allTogether;
 }

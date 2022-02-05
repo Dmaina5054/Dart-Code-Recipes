@@ -1,3 +1,13 @@
+// void repeat(String word, {int rpt: 1, String exclam: ""}) {
+//   for (int i = 0; i < rpt; i++) {
+//     print(word + exclam);
+//   }
+// }
+
+// void main() {
+//   repeat(2,'Dan')
+// }
+
 void repeat(String word, {int repetitions: 1, String exclamation: ""}) {
   for (int i = 0; i < repetitions; i++) {
     print(word + exclamation); // the + operator can concatenate strings

@@ -6,5 +6,5 @@ void repeat(String word, [int rept = 1, String exclamation = ""]) {
 
 void main() {
   //repeat('Animal');
-  repeat('Animal', 2, '!');
+  repeat('Animal', 5, ">");
 }

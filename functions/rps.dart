@@ -53,6 +53,7 @@ getComputerMove() {
 
 //Determine who won the game
 //need to compare player move with computer move
+//we have explicitly defined types of win for our human xters
 String whoWon(String playerMove, String computerMove) {
   if (playerMove == computerMove) {
     return "Tie!";
