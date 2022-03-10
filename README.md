@@ -14,8 +14,8 @@ Dart Code Recipes based on the book Dart for Absolute Beginners(Apress,2014). By
 **Chapter 4: Fundermentals Program to showcase Dart usage**
 Shortcircuit evaluation as evident y && if first condition evaluates to false, then second condition will not be evaluated.
 syntatic sugar *x*=5* for power in dart
-
-**Chapter 5: Functions**
+<hr>
+<h2><strong>Chapter 5: Functions</strong></h2>
 
 functions as callable units
 LOcality of functions
