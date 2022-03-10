@@ -60,8 +60,13 @@ A recursive function calls itself. Recursive functions need two things to be eff
 1. A base class: this is a clear end-state that is checked for such as with if(times <0)
 2. A recursive case: this ends with a recursive call with a change of state such as addon(original +additional, additional, times=5) call the recursive function with similar parameters that have changed a given value which will determine when condition to end recursion(base class) will be met.
 
-Anny scenarion that can be accomplished with recursion can also be accomplished with iteractive loops. Better to use iteractive loops since recursive call of a function requires that new memory be set aside for all its parameters and local variables.
+Any scenarion that can be accomplished with recursion can also be accomplished with iteractive loops. Better to use iteractive loops since recursive call of a function requires that new memory be set aside for all its parameters and local variables.
 
-*Fibonacci Sequence*
-*Factorial*
 
+
+<h2>Summary</h2>
+Making the same function call will always result in the same result, if the arguments
+provided to the function are exactly the same. Atomicity
+
+
+<strong>Dart Data Structures</strong>
