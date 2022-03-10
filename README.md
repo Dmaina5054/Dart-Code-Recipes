@@ -68,5 +68,6 @@ Any scenarion that can be accomplished with recursion can also be accomplished w
 Making the same function call will always result in the same result, if the arguments
 provided to the function are exactly the same. Atomicity
 
+<hr>
 
-<strong>Dart Data Structures</strong>
+<strong><h2>Dart Data Structures</h2></strong>
