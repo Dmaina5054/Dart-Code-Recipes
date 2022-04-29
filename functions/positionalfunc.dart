@@ -1,4 +1,4 @@
-void repeat(String word, [int rept = 1, String exclamation = ""]) {
+repeat(String word, [int rept = 1, String exclamation = ""]) {
   for (int i = 0; i <= rept; i++) {
     print(word + exclamation);
   }
