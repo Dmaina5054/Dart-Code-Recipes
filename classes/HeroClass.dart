@@ -4,7 +4,7 @@ class Hero {
   String firstname;
   String lastname;
   //static field does not require class initialization
-  static String species = 'Human';
+  static String species = 'He is Human';
 
   //constructor
   Hero(this.firstname, this.lastname);
@@ -14,7 +14,7 @@ class Hero {
   //a method
   Future<String> getSpecies() async {
     //simulate async
-    print('Almost there...');
+    print('Evaluating other conditions...');
     await Future.delayed(Duration(seconds: 2));
 
     //perform get
