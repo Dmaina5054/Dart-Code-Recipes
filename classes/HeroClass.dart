@@ -11,6 +11,8 @@ class Hero {
 
   String get speci => species;
 
+  String get firstn => firstname;
+
   //a method
   Future<String> getSpecies() async {
     //simulate async
@@ -19,6 +21,14 @@ class Hero {
 
     //perform get
     return speci;
+  }
+
+  //a method to return firstn
+  Future<String> getFirstName() async {
+    //simulate async
+    Future.delayed(Duration(seconds: 3));
+    print('returning firstname');
+    return firstn;
   }
 }
 
